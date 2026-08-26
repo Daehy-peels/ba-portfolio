@@ -157,7 +157,8 @@ export default function App() {
       title: "CMS Website",
       category: "Web Systems",
       type: "Previous Project",
-      description: "A previous content management system website project.",
+      description:
+        "A previous content management system website project.",
       tools: ["Requirements", "Workflow"],
       icon: <FolderKanban size={22} />,
     },
@@ -176,7 +177,8 @@ export default function App() {
       title: "Learning Management System",
       category: "Business Systems",
       type: "Previous Project",
-      description: "A previous learning management system project.",
+      description:
+        "A previous learning management system project.",
       tools: ["SDLC", "Business Analysis"],
       icon: <GraduationCap size={22} />,
     },
@@ -195,7 +197,8 @@ export default function App() {
       title: "Logistics",
       category: "Business Systems",
       type: "Previous Project",
-      description: "A previous logistics-related business and system project.",
+      description:
+        "A previous logistics-related business and system project.",
       tools: ["Process Analysis", "Workflow"],
       icon: <BarChart3 size={22} />,
     },
@@ -526,6 +529,7 @@ export default function App() {
                   <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-60" />
                   <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-500" />
                 </span>
+
                 Business Analyst
               </div>
 
@@ -590,7 +594,10 @@ export default function App() {
                     darkMode ? "text-slate-400" : "text-slate-500"
                   }`}
                 >
-                  <BriefcaseBusiness size={14} className="text-emerald-500" />
+                  <BriefcaseBusiness
+                    size={14}
+                    className="text-emerald-500"
+                  />
                   Mid-Level Business Analyst
                 </span>
               </div>
@@ -658,8 +665,8 @@ export default function App() {
                     darkMode ? "text-slate-400" : "text-slate-600"
                   }`}
                 >
-                  Working closely with developers and QA throughout the SDLC to
-                  support quality software delivery.
+                  Working closely with developers and QA throughout the SDLC
+                  to support quality software delivery.
                 </p>
               </div>
 
@@ -679,8 +686,8 @@ export default function App() {
                     darkMode ? "text-emerald-100" : "text-emerald-900"
                   }`}
                 >
-                  "I enjoy turning complex business needs into clear, practical
-                  solutions."
+                  "I enjoy turning complex business needs into clear,
+                  practical solutions."
                 </p>
               </div>
             </div>
@@ -779,7 +786,10 @@ export default function App() {
         </section>
 
         {/* ========================= SKILLS ========================= */}
-        <section id="skills" className="scroll-mt-24 py-24">
+        <section
+          id="skills"
+          className="scroll-mt-24 py-24"
+        >
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div
               data-aos="fade-up"
@@ -877,7 +887,7 @@ export default function App() {
                       >
                         {tool}
                       </span>
-                    ),
+                    )
                   )}
                 </div>
               </div>
@@ -986,12 +996,15 @@ export default function App() {
                       darkMode ? "text-slate-400" : "text-slate-500"
                     }`}
                   >
-                    Professional business management and administration training
-                    supporting her business analysis career.
+                    Professional business management and administration
+                    training supporting her business analysis career.
                   </p>
 
                   <div className="mt-6 flex items-center gap-2 text-xs font-medium text-slate-500">
-                    <BriefcaseBusiness size={14} className="text-teal-500" />
+                    <BriefcaseBusiness
+                      size={14}
+                      className="text-teal-500"
+                    />
                     Business Management & Administration
                   </div>
                 </div>
@@ -1023,8 +1036,8 @@ export default function App() {
                   darkMode ? "text-slate-400" : "text-slate-600"
                 }`}
               >
-                A selection of previous software, business, and system projects
-                across different domains.
+                A selection of previous software, business, and system
+                projects across different domains.
               </p>
             </div>
 
@@ -1046,8 +1059,8 @@ export default function App() {
                         isActive
                           ? "bg-gradient-to-r from-emerald-600 to-teal-500 text-white shadow-lg shadow-emerald-500/20"
                           : darkMode
-                            ? "border border-slate-800 bg-slate-950 text-slate-400 hover:border-emerald-700/40 hover:bg-slate-900 hover:text-emerald-300"
-                            : "border border-emerald-100 bg-white text-slate-600 hover:border-emerald-200 hover:bg-emerald-50 hover:text-emerald-700"
+                          ? "border border-slate-800 bg-slate-950 text-slate-400 hover:border-emerald-700/40 hover:bg-slate-900 hover:text-emerald-300"
+                          : "border border-emerald-100 bg-white text-slate-600 hover:border-emerald-200 hover:bg-emerald-50 hover:text-emerald-700"
                       }`}
                     >
                       {tab === "all" ? "All Projects" : tab}
@@ -1149,8 +1162,8 @@ export default function App() {
             </h2>
 
             <p className="mx-auto mt-5 max-w-xl text-sm leading-relaxed text-slate-400 sm:text-base">
-              Interested in working together, discussing a business problem, or
-              learning more about my experience? I'd love to hear from you.
+              Interested in working together, discussing a business problem,
+              or learning more about my experience? I'd love to hear from you.
             </p>
 
             <div className="mt-9 flex flex-col justify-center gap-3 sm:flex-row">
@@ -1188,7 +1201,10 @@ export default function App() {
 
             <p className="flex items-center gap-1 text-xs text-slate-500">
               Crafted with
-              <Heart size={12} className="fill-emerald-500 text-emerald-500" />
+              <Heart
+                size={12}
+                className="fill-emerald-500 text-emerald-500"
+              />
               and a little green magic.
             </p>
           </div>
